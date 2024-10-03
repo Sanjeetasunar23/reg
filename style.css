@@ -1,0 +1,28 @@
+body{
+    font-size: large;
+    text-align: center;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 7px 29px 0px rgba(3, 3, 61, 0.2);
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+:root {
+    --padding: 50px;
+    --shadow-color: rgba(32, 32, 213, 0.2);
+}
+
+body {
+    padding: var(--padding);
+}
+
+.container {
+    padding: var(--padding);
+    box-shadow: 0px 7px 29px 0px var(--shadow-color);
+}
